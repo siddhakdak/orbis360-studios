@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
 
-const siteUrl = 'https://www.orbis360studios.in';
+const siteUrl = 'https://www.orbis360studio.online/';
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: { default: 'Orbis 360 Studios | 360° Virtual Tours in Rajasthan', template: '%s | Orbis 360 Studios' },
@@ -22,5 +22,6 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     serviceType: ['360° Virtual Tour Photography','Virtual Property Tours','Immersive Business Tours','360° Event Coverage']
   };
   return <html lang="en-IN"><head>
-    <meta name="google-site-verification" content="WkKLCdqPyqtmQftt7op5TrwintNtv7OuvoSWEcCGl3M" /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(businessSchema) }} /></head><body>{children}</body></html>;
+    <meta name="google-site-verification" content="Oz253JB7YQBEPWY83iHDMr2rOLX-diCVVg8wX8SspOQ" /><script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(businessSchema) }} /></head><body>{children}</body></html>;
 }
+
