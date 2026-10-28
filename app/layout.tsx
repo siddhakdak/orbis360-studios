@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import './globals.css';
-
+<meta name="google-site-verification" content="WkKLCdqPyqtmQftt7op5TrwintNtv7OuvoSWEcCGl3M" />
 const siteUrl = 'https://www.orbis360studios.in';
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
