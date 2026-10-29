@@ -65,7 +65,7 @@ export default function Home() {
                 />
               </div>
               <div className="tour-info">
-                <div><h3>Sample Virtual Tour 01</h3><p>Explore the space in 360°</p></div>
+                <div><h3>Sample Virtual Tour 01</h3><p>Explore the suite in 360°</p></div>
                 <a className="tour-button" href="https://app.cloudpano.com/tours/t1LtFvj5DK" target="_blank" rel="noopener noreferrer" aria-label="Open sample tour 1 in a new tab">↗</a>
               </div>
             </article>
@@ -82,7 +82,7 @@ export default function Home() {
                 />
               </div>
               <div className="tour-info">
-                <div><h3>Sample Virtual Tour 02</h3><p>Look around from every angle</p></div>
+                <div><h3>Sample Virtual Tour 02</h3><p>Look around a lobby from every angle</p></div>
                 <a className="tour-button" href="https://app.cloudpano.com/tours/-CGyBUouS9" target="_blank" rel="noopener noreferrer" aria-label="Open sample tour 2 in a new tab">↗</a>
               </div>
             </article>
@@ -99,8 +99,42 @@ export default function Home() {
                 />
               </div>
               <div className="tour-info">
-                <div><h3>Sample Virtual Tour 03</h3><p>Experience an immersive walkthrough</p></div>
+                <div><h3>Sample Virtual Tour 03</h3><p>Experience an immersive commercial walkthrough</p></div>
                 <a className="tour-button" href="https://app.cloudpano.com/tours/mr0UDORHf" target="_blank" rel="noopener noreferrer" aria-label="Open sample tour 3 in a new tab">↗</a>
+              </div>
+            </article>
+
+            <article className="tour-card live-tour-card">
+              <div className="live-tour-frame" style={{ position: "relative", width: "100%", aspectRatio: "4 / 3", overflow: "hidden", background: "#f1f5f9" }}>
+                <iframe
+                  src="https://www.p4panorama.com/panos/Ramadakochi/"
+                  title="Orbis 360 Studios sample virtual tour 1"
+                  loading="lazy"
+                  allow="fullscreen; gyroscope; accelerometer; vr"
+                  allowFullScreen
+                  style={{ position: "absolute", inset: 0, width: "100%", height: "100%", border: 0 }}
+                />
+              </div>
+              <div className="tour-info">
+                <div><h3>Sample Virtual Tour 04</h3><p>Explore the Hotel in 360°</p></div>
+                <a className="tour-button" href="https://app.cloudpano.com/tours/t1LtFvj5DK" target="_blank" rel="noopener noreferrer" aria-label="Open sample tour 1 in a new tab">↗</a>
+              </div>
+            </article>
+
+            <article className="tour-card live-tour-card">
+              <div className="live-tour-frame" style={{ position: "relative", width: "100%", aspectRatio: "4 / 3", overflow: "hidden", background: "#f1f5f9" }}>
+                <iframe
+                  src="https://www.p4panorama.com/panos/hotel-shevaroys-yercaud-360-virtual-tour/"
+                  title="Orbis 360 Studios sample virtual tour 1"
+                  loading="lazy"
+                  allow="fullscreen; gyroscope; accelerometer; vr"
+                  allowFullScreen
+                  style={{ position: "absolute", inset: 0, width: "100%", height: "100%", border: 0 }}
+                />
+              </div>
+              <div className="tour-info">
+                <div><h3>Sample Virtual Tour 05</h3><p>Explore the Resort in 360°</p></div>
+                <a className="tour-button" href="https://app.cloudpano.com/tours/t1LtFvj5DK" target="_blank" rel="noopener noreferrer" aria-label="Open sample tour 1 in a new tab">↗</a>
               </div>
             </article>
           </div>
