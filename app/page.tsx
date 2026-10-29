@@ -117,7 +117,7 @@ export default function Home() {
               </div>
               <div className="tour-info">
                 <div><h3>Sample Virtual Tour 04</h3><p>Explore the Hotel in 360°</p></div>
-                <a className="tour-button" href="https://app.cloudpano.com/tours/t1LtFvj5DK" target="_blank" rel="noopener noreferrer" aria-label="Open sample tour 1 in a new tab">↗</a>
+                <a className="tour-button" href="https://www.p4panorama.com/panos/Ramadakochi/" target="_blank" rel="noopener noreferrer" aria-label="Open sample tour 1 in a new tab">↗</a>
               </div>
             </article>
 
@@ -134,7 +134,7 @@ export default function Home() {
               </div>
               <div className="tour-info">
                 <div><h3>Sample Virtual Tour 05</h3><p>Explore the Resort in 360°</p></div>
-                <a className="tour-button" href="https://app.cloudpano.com/tours/t1LtFvj5DK" target="_blank" rel="noopener noreferrer" aria-label="Open sample tour 1 in a new tab">↗</a>
+                <a className="tour-button" href="https://www.p4panorama.com/panos/hotel-shevaroys-yercaud-360-virtual-tour/" target="_blank" rel="noopener noreferrer" aria-label="Open sample tour 1 in a new tab">↗</a>
               </div>
             </article>
           </div>
