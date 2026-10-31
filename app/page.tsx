@@ -137,6 +137,40 @@ export default function Home() {
                 <a className="tour-button" href="https://www.p4panorama.com/panos/hotel-shevaroys-yercaud-360-virtual-tour/" target="_blank" rel="noopener noreferrer" aria-label="Open sample tour 1 in a new tab">↗</a>
               </div>
             </article>
+
+            <article className="tour-card live-tour-card">
+              <div className="live-tour-frame" style={{ position: "relative", width: "100%", aspectRatio: "4 / 3", overflow: "hidden", background: "#f1f5f9" }}>
+                <iframe
+                  src="https://viewlo.in/tour/qds-satya-niketan"
+                  title="Orbis 360 Studios sample virtual tour 1"
+                  loading="lazy"
+                  allow="fullscreen; gyroscope; accelerometer; vr"
+                  allowFullScreen
+                  style={{ position: "absolute", inset: 0, width: "100%", height: "100%", border: 0 }}
+                />
+              </div>
+              <div className="tour-info">
+                <div><h3>Sample Virtual Tour 06</h3><p>Explore the Resort in 360°</p></div>
+                <a className="tour-button" href="https://viewlo.in/tour/qds-satya-niketan" target="_blank" rel="noopener noreferrer" aria-label="Open sample tour 1 in a new tab">↗</a>
+              </div>
+            </article>
+
+            <article className="tour-card live-tour-card">
+              <div className="live-tour-frame" style={{ position: "relative", width: "100%", aspectRatio: "4 / 3", overflow: "hidden", background: "#f1f5f9" }}>
+                <iframe
+                  src="https://viewlo.in/tour/delhi-2d-cafe"
+                  title="Cafe Hotel 360° Virtual Tour"
+                  loading="lazy"
+                  allow="fullscreen; gyroscope; accelerometer; vr"
+                  allowFullScreen
+                  style={{ position: "absolute", inset: 0, width: "100%", height: "100%", border: 0 }}
+                />
+              </div>
+              <div className="tour-info">
+                <div><h3>Sample Virtual Tour 07</h3><p>Explore the Cafe in 360°</p></div>
+                <a className="tour-button" href="https://viewlo.in/tour/delhi-2d-cafe" target="_blank" rel="noopener noreferrer" aria-label="Open sample tour 1 in a new tab">↗</a>
+              </div>
+            </article>
           </div>
 
           <div className="tour-note">
